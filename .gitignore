@@ -1,0 +1,47 @@
+#  Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+#  Ignore Node.js dependencies
+/backend/node_modules/
+/backend/node_modules/
+/backend/.env
+/backend/package-lock.json
+/backend/src/utils
+
+# Ignore Flutter build files
+/frontend/build/
+/frontend/build/
+/frontend/.dart_tool/
+/frontend/.flutter-plugins
+/frontend/.flutter-plugins-dependencies
+/frontend/.package
+/frontend/.idea
+/frontend/pubspec.lock
+/frontend/firebase.json
+/frontend/.env
+/frontend/lib/firebase_options.dart
+/frontend/lib/core/config/api_config.dart
+/frontend/.metadata
+
+
+
+
+# Ignore Firebase & API Keys (if any)
+frontend/android/app/google-services.json
+frontend/ios/Runner/GoogleService-Info.plist
+
+#  Ignore Machine Learning (Python) files
+/ml/__pycache__/
+ml/.venv/
+ml/.ipynb_checkpoints/
+ml/env/
+ml/venv/
+ml/.DS_Store
+
+#  Ignore VSCode & IntelliJ IDE settings
+.vscode/
+.idea/
+
+#  Ignore Logs & Cache files
+*.log
